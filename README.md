@@ -6,6 +6,12 @@
 <a href="https://github.com/leafac/caxa/actions"><img src="https://github.com/leafac/caxa/workflows/.github/workflows/main.yml/badge.svg" alt="Continuous Integration"></a>
 </p>
 
+# TLDR
+
+Package a node project into an executable like `my-pkg` like this:
+
+`npx caxa -i . -o my-pkg '{{caxa}}/node_modules/.bin/node' '{{caxa}}/index.js'`
+
 # [Watch the Video Demonstration](https://youtu.be/JRwxx2jc2zU)
 
 ### Support
