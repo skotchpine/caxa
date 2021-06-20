@@ -8,7 +8,7 @@
 
 # TLDR
 
-Package a node project into an executable like `my-pkg` like this:
+Package your `index.js` and dependencies into an executable like `my-pkg` like this:
 
 ```sh
 npx caxa -i . -o my-pkg '{{caxa}}/node_modules/.bin/node' '{{caxa}}/index.js'
